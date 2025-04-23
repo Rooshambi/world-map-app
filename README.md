@@ -9,7 +9,7 @@ This project is an simple Angular application showcasing an interactive world ma
 - **Node.js:** v18.20.8
 - **Package Manager:** npm 10.8.2
 - **Operating System:** macOS Sequoia 15.4.1
-- **Angular Version:**19.2.8
+- **Angular Version:** 19.2.8
 
 ## Prerequisites
 To run this project, ensure the following are installed:
