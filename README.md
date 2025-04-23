@@ -21,3 +21,9 @@ To run this project, ensure the following are installed:
 ```bash
 npm install
 ng serve
+
+
+## Source
+- SVG world map: https://mapsvg.com/maps/world
+- GeoNames API: http://www.geonames.org/export/web-services.html
+- World Bank API: https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation
