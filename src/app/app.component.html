@@ -1,25 +1,2 @@
-<!-- src/app/world/world.component.html -->
-<table>
-  <tr>
-    <!-- Left: the SVG map (paste the entire <svg>…</svg> here) -->
-    <td style="vertical-align: top; width: 70%;">
-      <svg (click)="onMapClick($event)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1001">
-        <!-- example country path -->
-        <path id="USA" d="M..." style="fill:#ccc;stroke:#333;stroke-width:1"></path>
-        <!-- …all other <path> elements from your SVG… -->
-      </svg>
-    </td>
-
-    <!-- Right: placeholders bound to `country` fields -->
-    <td style="vertical-align: top; padding-left: 1rem; width: 30%;">
-      <h3>{{ country?.name || 'Select a country' }}</h3>
-      <ul *ngIf="country">
-        <li><strong>Capital:</strong> {{ country.capitalCity }}</li>
-        <li><strong>Region:</strong> {{ country.region }}</li>
-        <li><strong>Income:</strong> {{ country.incomeLevel }}</li>
-        <li><strong>Population:</strong> {{ country.population | number }}</li>
-        <li><strong>Area (km²):</strong> {{ country.area | number }}</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<!-- src/app/app.component.html -->
+<router-outlet></router-outlet>

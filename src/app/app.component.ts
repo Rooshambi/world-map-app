@@ -1,11 +1,10 @@
+// src/app/app.component.ts
 import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  standalone: false,
-  styleUrl: './app.component.css'
+  imports: [RouterOutlet],   // ← so <router-outlet> is known
 })
-export class AppComponent {
-  title = 'world-map-app';
-}
+export class AppComponent {}

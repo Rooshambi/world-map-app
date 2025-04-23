@@ -1,0 +1,6 @@
+/* world.component.css */
+.map-column svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
