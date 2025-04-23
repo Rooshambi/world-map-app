@@ -7,9 +7,9 @@ This project is an simple Angular application showcasing an interactive world ma
 ## Angular Project Configuration
 - **Angular CLI:** 19.2.7
 - **Node.js:** v18.20.8
-- **Package Manager:** npm (version compatible with Node.js)
+- **Package Manager:** npm 10.8.2
 - **Operating System:** macOS Sequoia 15.4.1
-- **Angular Version:** Compatible with Angular CLI 19.2.7
+- **Angular Version:**19.2.8
 
 ## Prerequisites
 To run this project, ensure the following are installed:
